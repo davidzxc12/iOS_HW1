@@ -53,5 +53,21 @@ class DisplayLabel: UILabel {
         }
         self.text = self.negative ? text.substringFromIndex(text.startIndex.advancedBy(1)) : "-" + text
     }
+    
+    var haveDot: Bool {
+        if let text = self.text {
+            return text.containsString(".")
+        }
+        else {
+            return false
+        }
+    }
+    
+    func addDot() {
+        guard let text = self.text else {
+            return
+        }
+        self.text = self.haveDot ? text : text+"."
+    }
 
 }

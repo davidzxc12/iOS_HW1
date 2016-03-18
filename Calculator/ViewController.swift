@@ -27,7 +27,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var displaylabel: DisplayLabel!
 
     @IBAction func NumberPressed(sender: UIButton) {
-        guard displaylabel.text!.characters.count < 11 else {
+        //Guard that the number will not exceed display label
+        guard displaylabel.text!.characters.count < 8 else {
             return
         }
         if sender.tag >= 1000 && sender.tag < 1010 {
@@ -67,6 +68,16 @@ class ViewController: UIViewController {
         try! self.core.addStep(self.displaylabel.floatValue)
         self.displaylabel.floatValue = try! self.core.calculate()
         self.resetCore()
+    }
+    @IBAction func PercentClicked(sender: UIButton) {
+        try! self.core.addStep(self.displaylabel.floatValue)
+        try! self.core.addStep(/)
+        try! self.core.addStep(100)
+        self.displaylabel.floatValue=try! self.core.calculate()
+        self.resetCore()
+    }
+    @IBAction func DotClicked(sender: AnyObject) {
+        displaylabel.addDot()
     }
 }
 
