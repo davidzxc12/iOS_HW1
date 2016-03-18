@@ -1,0 +1,43 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "38FF34F8D4E1172B4FA48209354838926D8FBAE3" : 0,
+    "C7D867E96B4B6011FF03D966A5963570866E861D" : 0,
+    "B14D26AB91106139B7A0D7B4C30CEB4E2975E76D" : 0,
+    "613CF08DEE6ED70E936942DAC570685E4DDDEF47" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6642C87A-FD9D-4BC4-8F89-E5B89C5EC8CB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "38FF34F8D4E1172B4FA48209354838926D8FBAE3" : "..\/example\/calculator",
+    "C7D867E96B4B6011FF03D966A5963570866E861D" : "..\/..\/swift-introduction",
+    "B14D26AB91106139B7A0D7B4C30CEB4E2975E76D" : "..\/..\/gcd-example",
+    "613CF08DEE6ED70E936942DAC570685E4DDDEF47" : "..\/..\/uikit-intro"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Calculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Calculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sodascourse\/calculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38FF34F8D4E1172B4FA48209354838926D8FBAE3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sodascourse\/uikit-intro.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "613CF08DEE6ED70E936942DAC570685E4DDDEF47"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sodascourse\/gcd-example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B14D26AB91106139B7A0D7B4C30CEB4E2975E76D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sodascourse\/swift-introduction.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C7D867E96B4B6011FF03D966A5963570866E861D"
+    }
+  ]
+}
